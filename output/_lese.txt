@@ -1,0 +1,36 @@
+RisingWorld_MediaWiki_Tool  by Kryssi_79
+
+Kleines Tool für Wiki-Betreiber (und Wiki-Autoren) 
+um Wikipedia-Tabellen mithilfe von "Rising World" Spiel-Daten zu generieren.
+
+
+output
+Ausgangsordner für MediaWiki Tabellen. 
+
+Einfach Text kopieren  und in die Wiki einfügen.
+
+
+---------------------------------------------------------------------------
+Links:
+
+Rising World Forum - MediaWiki Tool (für R.W. neue Version) 
+https://forum.rising-world.net/thread/12714-mediawiki-tool-f%C3%BCr-r-w-neue-version/
+
+Rising World Forum - user Kryssi_79
+https://www.rising-world.net/user/3481-kryssi-79/
+
+
+Deutsche Rising World Wiki
+https://www.rising-world-wiki.de
+
+Rising World Wiki - automatisch generierte Tiere 
+https://www.rising-world-wiki.de/index.php?title=Tiere
+
+Rising World Wiki - Alle Werkbänke (automatisch generiert) 
+https://www.rising-world-wiki.de/index.php?title=Werkbank
+
+---------------------------------------------------------------------------
+Download: 
+
+Rising World Forum - MediaWiki Tool (für R.W. neue Version) 
+https://forum.rising-world.net/thread/12714-mediawiki-tool-f%C3%BCr-r-w-neue-version/

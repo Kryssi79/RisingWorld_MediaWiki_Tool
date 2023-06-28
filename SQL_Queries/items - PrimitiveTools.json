@@ -1,0 +1,14 @@
+{
+		"TableName": "items - PrimitiveTools", 
+		"TableCaption": "Items - Primitive Werkzeuge ", 
+		"TableIsSortable": true, 
+		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+  items.name AS Name, items.name AS ID, items.type AS Typ, items.category AS item_category,  recipes.category,  recipes.subcategory, 
+  stacksize AS Stapelgrösse, strength, twohanded, 
+  mass,  recipes.recipe AS Rezept, recipes.craftingstations, 
+  assetpath,  '' AS Ab
+  FROM items   INNER JOIN recipes  ON  items.name = recipes.name 
+  WHERE  items.name NOT NULL  AND  subcategory='PrimitiveTools' 
+   order by items.name ", 
+		"TranslateColumns": [1,11,12]
+}

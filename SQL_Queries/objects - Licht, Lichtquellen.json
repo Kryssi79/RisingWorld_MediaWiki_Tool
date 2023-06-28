@@ -1,0 +1,18 @@
+{
+		"TableName": "objects - Licht, Lichtquelle", 
+		"TableIsSortable": true, 
+		"query": " SELECT ' [[Datei:Object_' || objects.name || '.png|zentriert|frameless|64x64px]] ' AS Bild, 
+  objects.name AS Name, objects.name AS ID, 
+  '#Lang#object.' || objects.name || '.desc' AS Beschreibung, 
+  objects.type AS Typ, 
+  recipes_objects.category AS category, 
+  recipes_objects.subcategory AS Unterkategorie, 
+  recipes_objects.recipe AS Rezept,  recipes_objects.craftingstations AS Werkbank, 
+  strength, placetime, assetpath,  '#Version#' || objects.name AS \"Ab Version\" 
+  FROM objects INNER JOIN recipes_objects ON objects.name = recipes_objects.name 
+   WHERE  (objects.name LIKE '%lantern%'  OR objects.type='Torch'  OR objects.type='Campfire'  OR objects.type='Fire'  
+   OR objects.type='Lamp'  OR recipes_objects.subcategory='Lights') 
+   AND objects.name NOT NULL  AND objects.assetpath NOT NULL 
+   order by objects.name  ", 
+		"TranslateColumns": [1,3,5,6,7]
+}

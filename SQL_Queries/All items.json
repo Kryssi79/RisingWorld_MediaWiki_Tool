@@ -1,0 +1,11 @@
+{
+		"TableName": "items ALL", 
+		"TableCaption": "Items ", 
+		"TableIsSortable": true, 
+		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+  items.name AS Name, items.name AS ID, type AS Typ, 
+  stacksize AS Stapelgrösse, category, strength, durability, 
+  mass, assetpath,  '' AS \"Ab Version\" 
+  FROM items  WHERE items.name NOT NULL ", 
+		"TranslateColumns": [1,3]
+}

@@ -1,0 +1,13 @@
+{
+		"TableName": "items - Erze, ore", 
+		"TableIsSortable": true, 
+		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+  items.name AS Name, items.name AS ID,  
+  '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
+  stacksize AS Stapelgrösse, strength, 
+  mass,  items.type AS Typ,  assetpath, 
+  '#Version#' || items.name AS 'Ab Version' 
+  FROM items  WHERE  items.type='Ore'  AND  items.name NOT NULL 
+   order by name ", 
+		"TranslateColumns": [1,3]
+}
