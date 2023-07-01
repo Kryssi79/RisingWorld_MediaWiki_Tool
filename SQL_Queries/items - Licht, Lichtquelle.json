@@ -1,7 +1,7 @@
 {
-		"TableName": "items - Licht, Lichtquelle", 
-		"TableIsSortable": true, 
-		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+	"TableName": "items - Licht, Lichtquelle", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
   items.name AS Name, items.name AS ID,  
   '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
   type AS Typ, 
@@ -10,5 +10,6 @@
   FROM items  WHERE  (items.name LIKE '%lantern%'  OR items.type='Light'  OR items.category='Light') 
    AND items.name NOT NULL  AND items.assetpath NOT NULL 
    order by name ", 
-		"TranslateColumns": [1,3]
+	"TranslateColumns": [1,3], 
+	"OutputSubDirectory": "items" 
 }

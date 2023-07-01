@@ -1,12 +1,13 @@
 {
-		"TableName": "items Fahrzeuge", 
-		"TableIsSortable": true, 
-		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+	"TableName": "items - Fahrzeuge", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
   items.name AS Name, items.name AS ID,  
   '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
   stacksize AS Stapelgrösse, strength, 
   mass, assetpath,  '' AS \"Ab Version\" 
   FROM items  WHERE  items.type='Vehicle'  AND  items.name NOT NULL 
    order by name ", 
-		"TranslateColumns": [1,3]
+	"TranslateColumns": [1,3], 
+	"OutputSubDirectory": "items" 
 }

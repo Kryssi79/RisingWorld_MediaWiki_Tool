@@ -1,10 +1,11 @@
 {
-		"TableName": "items - Kategorien in der DB", 
-		"TableIsSortable": true, 
-		"query": " SELECT  category AS Bezeichnung,   category AS Name,   COUNT(category) AS Anzahl  
+	"TableName": "items - Kategorien in der DB", 
+	"TableIsSortable": true, 
+	"query": " SELECT  category AS Bezeichnung,   category AS Name,   COUNT(category) AS Anzahl  
   FROM items  
   WHERE  items.name NOT NULL  AND items.category NOT NULL   AND items.assetpath NOT NULL 
   GROUP BY category 
    order by Anzahl DESC ", 
-		"TranslateColumns": [1]
+	"TranslateColumns": [1], 
+	"OutputSubDirectory": "items" 
 }
