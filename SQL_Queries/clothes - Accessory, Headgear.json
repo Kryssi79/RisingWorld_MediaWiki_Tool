@@ -1,0 +1,18 @@
+{
+	"TableName": "clothes - Accessory, Headgear", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:clothing_' || clothes.name || '.png|zentriert|frameless|70px]] ' AS Bild, 
+ name AS ID, name AS Name, 
+ '#Lang#clothing.' || clothes.name || '.desc' AS Beschreibung, 
+ function, category, 
+ types,  protection AS Schutz,  insulation AS Isolierung, 
+ absorbency, heatprotection, radiationprotection, 
+ camouflage, isarmor AS 'ist Rüstung', 
+ asset AS assetpath, 
+ '#Version#' || clothes.name AS 'Ab Version' 
+ FROM clothes  WHERE  (category='Accessory' OR category='Headgear') 
+  AND name not null  AND name not like 'empty'  AND asset not null 
+   order by name  ", 
+	"TranslateColumns": [2,3], 
+	"OutputSubDirectory": "clothes" 
+}

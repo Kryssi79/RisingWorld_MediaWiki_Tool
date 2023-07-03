@@ -1,4 +1,14 @@
 {
+	"clothes": 
+	{
+		"aviators": "0.6.7", 
+		"helmet": "0.6.7", 
+		"helmet2": "0.6.7", 
+		"helmet2_lamp": "0.6.7", 
+		"helmet_lamp": "0.6.7", 
+		"mininghelmet": "0.6.7", 
+		"sunglasses1": "0.6.7" 	
+	}, 
 	"items": 
 	{
 		"aluminiumingot": "0.5", 
