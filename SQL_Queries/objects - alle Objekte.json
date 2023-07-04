@@ -12,7 +12,8 @@
   objects.type AS Typ,  assetpath,  
   '#Version#' || objects.name AS 'Ab Version' 
   FROM objects INNER JOIN recipes_objects ON objects.name = recipes_objects.name 
-   WHERE  objects.name NOT NULL  AND objects.name NOT LIKE 'empty'
+   WHERE  objects.name NOT NULL  AND objects.name NOT LIKE 'empty'  AND objects.name NOT LIKE '\\_%' ESCAPE '\\' 
+    AND objects.assetpath NOT NULL 
     order by objects.name  ", 
 		"TranslateColumns": [1,3,6,7]
 }

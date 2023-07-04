@@ -5,7 +5,8 @@
 	"query": " Select  '[[Datei:plant_' || name || '.png|zentriert|frameless|74px]]' AS Bild, 
  name AS ID, pickupitem AS Name, localname AS 'wird', 
  type AS Typ, stage AS 'Stadium', 
- pickupitem AS 'pickup item', strength, growthtime AS 'growth time', requiresfarmland AS 'benötigt Ackerland', 
+ pickupitem AS 'pickup item', strength, growthtime AS 'growth time', 
+ '[[Datei:bool_' || requiresfarmland || '.png|zentriert|frameless|22px]]' AS 'benötigt Ackerland', 
  assetpath
  FROM plants  WHERE requiresfarmland='1'  AND stage NOT LIKE 'Default' 
   AND name NOT NULL  AND assetpath NOT NULL 
