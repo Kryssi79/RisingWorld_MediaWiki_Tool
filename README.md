@@ -1,8 +1,15 @@
 # RisingWorld MediaWiki Tool
 Kleines Tool für Wiki-Betreiber (und Wiki-Autoren) um Wikipedia-Tabellen mithilfe von "Rising World" Spiel-Daten zu generieren.
 
-Es ist ein kleines Werkzeug für Risin gWorld Wiki-Helfer. Du brauchst keine Admin-Rechte. 
+Es ist ein kleines Werkzeug für Risin gWorld Wiki-Helfer. Du brauchst keine Admin-Rechte. <br>
 Es werden nur einzelne Wiki-Tabellen generieren und in TXT-Dateien gespeichert.
+
+Das Tool benutzt 2 Rising World Dateien: <br>
+Datenbank: \RisingWorld\_New Version\Data\StreamingAssets\definitions.db <br>
+und <br>
+Sprachdatei: \RisingWorld\_New Version\Data\StreamingAssets\Languages\de.json
+um Wiki-Tabellen zu generieren
+
 
 ## Links
 Rising World Forum - MediaWiki Tool (für R.W. neue Version) 
