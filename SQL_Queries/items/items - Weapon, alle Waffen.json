@@ -1,0 +1,16 @@
+{
+	"TableName": "items - Weapon, alle Waffen", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|72x72px]]' AS Bild, 
+  items.name AS Name, items.name AS ID, 
+  '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
+  stacksize AS 'Stapel-<br>grösse',  strength AS Stärke,  durability AS Haltbarkeit, 
+  '[[Datei:bool_' || twohanded || '.png|zentriert|frameless|22px]]' AS Zweihand, 
+  mass, category, type AS Typ, assetpath, 
+  '#Version#' || items.name AS 'Ab Version' 
+  FROM items  WHERE  (items.category='Explosive' OR items.category='Weapon' OR items.type='Knife')
+   AND items.name NOT NULL  AND items.assetpath NOT NULL  AND items.name NOT LIKE '\\_%' ESCAPE '\\'  
+   order by name  ", 
+	"TranslateColumns": [1,3], 
+	"OutputSubDirectory": "items" 
+}
