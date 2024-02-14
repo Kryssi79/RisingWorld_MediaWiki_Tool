@@ -1,0 +1,15 @@
+{
+		"TableName": "items - BasicTools, Paint", 
+		"TableCaption": "Items - Einfache Werkzeuge, Werkzeuge zum malen ", 
+		"TableIsSortable": true, 
+		"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+  items.name AS Name, items.name AS ID,  '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
+  strength, 
+  mass,  recipes.recipe AS Rezept, recipes.craftingstations, 
+  assetpath,  '' AS Ab
+  FROM items   INNER JOIN recipes  ON  items.name = recipes.name 
+  WHERE  items.name NOT NULL  AND  subcategory='BasicTools'  AND  items.type='Paint' 
+   order by items.name ", 
+	"TranslateColumns": [1,3,6,7], 
+	"OutputSubDirectory": "items" 
+}

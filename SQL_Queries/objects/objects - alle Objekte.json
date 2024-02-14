@@ -1,0 +1,19 @@
+{
+		"TableName": "objects - alle Objekte", 
+		"TableIsSortable": true, 
+		"query": " SELECT '[[Datei:Object_' || objects.name || '.png|zentriert|frameless|75px]]' AS Bild, 
+  objects.name AS Name, 
+  objects.name || '<br/><br/> ' || '[[Konsole#Allgemein|Konsole]]:<br/> ' || '<code>object ' || objects.name || '</code>' AS ID, 
+  '#Lang#object.' || objects.name || '.desc' AS Beschreibung, 
+  recipes_objects.category AS Kategorie, 
+  recipes_objects.subcategory AS Unterkategorie, 
+  recipes_objects.recipe AS Rezept,  recipes_objects.craftingstations AS Werkbank, 
+  strength, placetime, 
+  objects.type AS Typ,  assetpath,  
+  '#Version#' || objects.name AS 'Ab Version' 
+  FROM objects LEFT JOIN recipes_objects ON objects.name = recipes_objects.name 
+   WHERE  objects.name NOT NULL  AND objects.name NOT LIKE 'empty'  AND objects.name NOT LIKE '\\_%' ESCAPE '\\' 
+    AND objects.assetpath NOT NULL 
+    order by objects.name  ", 
+		"TranslateColumns": [1,3,6,7]
+}

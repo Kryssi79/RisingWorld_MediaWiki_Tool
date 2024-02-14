@@ -1,0 +1,12 @@
+{
+		"TableName": "NPCs", 
+		"query": "SELECT ' ' AS Bild, name AS Name, name AS ID, 
+   type AS Typ, gender AS Geschlecht, 
+   health AS Gesundheit, stamina AS Energie, hitdamage AS Trefferschaden, 
+   attackrange AS Angriffsreichweite, attackreaction AS Angriffsreaktion, 
+   walkspeed AS Gehgeschwindigkeit, runspeed AS Laufgeschwindigkeit, herdmax AS Herde_max, 
+   assetpath,  '' AS \"Ab Version\"  
+   FROM npcs  
+    order by name ", 
+		"TranslateColumns": [1,3,4,9]
+}
