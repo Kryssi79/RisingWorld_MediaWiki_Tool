@@ -1,0 +1,11 @@
+{
+	"TableName": "NPCs - Gegner - Biom auftreten", 
+	"query": "SELECT  '[[Datei:npc_' || npcs.name || '_0.png|zentriert|frameless|75px]]' AS Bild, 
+	npcs.name AS Name, npcs.name AS ID, 
+	npcs.type AS Typ,  herdmax AS 'NPC<br> Herde max', 
+	biome AS 'Biom-<br> name', occurrence AS 'Biom<br> occurrence' 
+	FROM npcs  INNER JOIN biomes_npcs ON npcs.name = biomes_npcs.name 
+	 WHERE  attackreaction='Attack' AND behaviour='Aggressive' 
+	order by name ", 
+	"TranslateColumns": [1,3]
+}

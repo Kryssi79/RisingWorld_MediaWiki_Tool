@@ -1,0 +1,15 @@
+{
+	"TableName": "NPCs - Gegner", 
+	"query": "SELECT  '[[Datei:npc_' || npcs.name || '_0.png|zentriert|frameless|75px]]' AS Bild, 
+	name AS Name, name AS ID, 
+	type AS Typ, gender AS Geschlecht, 
+	health AS Gesundheit, stamina AS Energie, hitdamage AS 'Treffer-<br> schaden', 
+	attackrange AS 'Angriffs-<br> reichweite',  attackreaction AS 'Angriffs-<br> reaktion', 
+	behaviour AS 'Verhalten<br> (behaviour)', aggroradius AS 'aggro<br> radius', 
+	walkspeed AS 'Geh-<br> geschwindigkeit', runspeed AS 'Lauf-<br> geschwindigkeit', herdmax AS 'Herde max', 
+	loottype, 
+	assetpath,  '#Version#' || npcs.name AS 'Ab Version'  
+	FROM npcs  WHERE  attackreaction='Attack'  
+	order by name ", 
+	"TranslateColumns": [1,3,4,9,10]
+}
