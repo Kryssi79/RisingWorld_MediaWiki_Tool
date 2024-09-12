@@ -3,7 +3,7 @@
 	"TableIsSortable": true, 
 	"query": " SELECT  '[[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
   items.name AS Name, items.name AS ID, type AS Typ, 
-  stacksize AS Stapelgrösse, category, strength, 
+  stacksize AS Stapelgrösse, category AS Kategorie, strength, 
   mass, assetpath, 
   '#Version#' || items.name AS 'Ab Version' 
   FROM items  WHERE  items.category='Food'  AND items.name NOT NULL  AND items.assetpath NOT NULL 
