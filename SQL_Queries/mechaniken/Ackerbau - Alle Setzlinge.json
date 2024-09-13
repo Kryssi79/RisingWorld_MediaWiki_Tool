@@ -1,0 +1,15 @@
+{
+	"TableName": "Ackerbau - Alle Setzlinge", 
+	"TableCaption": "Alle Setzlinge, automatisch generiert", 
+	"TableIsSortable": true, 
+	"query": " Select  '[[Datei:plant_' || name || '.png|zentriert|frameless|74px]]' AS Bild, 
+ name AS ID, pickupitem AS Name, localname AS 'wird', 
+ pickupitem AS 'pickup item', strength, growthtime AS 'growth time', 
+ '[[Datei:bool_' || requiresfarmland || '.png|zentriert|frameless|22px]]' AS 'benötigt Ackerland', 
+ assetpath
+ FROM plants  WHERE stage='Sapling'  AND type='Crop' 
+  AND name NOT NULL  AND assetpath NOT NULL 
+   order by name ", 
+	"TranslateColumns": [2,3], 
+	"OutputSubDirectory": "mechaniken" 
+}
