@@ -1,0 +1,1178 @@
+[
+	{
+		"Konsolenbefehl": "backups",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet das Welt Backup-Verzeichnis im Datei-Explorer",
+		"Description": "Opens the world backup directory in the file explorer",
+		"Gruppe": "Explorer, Welt"
+	},
+	{
+		"Konsolenbefehl": "bag",
+		"Parameter": "<item1> <item2> <item3> ...",
+		"Beschreibung": "Fügt dem Inventar einen Taschengegenstand mit Items hinzu. <br/>Siehe: [[Items]] \r\n z.B.: \r\n *<code>bag sword1</code> \r\n *<code>bag apple bread carrot</code> ",
+		"Description": "Adds a bag item (which contains other items) to your inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "ban",
+		"Parameter": "<name/uid> <duration> [reason]",
+		"Beschreibung": "Sperrt einen Spieler für eine bestimmte Zeit vom Server",
+		"Description": "Bans a player from the server for a given amount of time (seconds). Set duration to -1 for a permanent ban",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "blocks",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet eine Blockauswahl, in der Sie eine Blockform und -textur auswählen können.",
+		"Description": "Brings up a block selection where you can select a block shape and texture",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "blueprintinfo",
+		"Parameter": "-",
+		"Beschreibung": "Blaupausen-Info",
+		"Description": "blueprint info",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "blueprints",
+		"Parameter": "-",
+		"Beschreibung": "Ruft das Blueprint-Menü auf",
+		"Description": "Brings up the blueprint menu. If there is no blueprint table in proximity, this command only works in creative mode",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "buildinfo",
+		"Parameter": "-",
+		"Beschreibung": "Zeigt Informationen zum aktuellen Build (Entwicklungsstufe) von Rising World an",
+		"Description": "Prints information about the current build",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "calc",
+		"Parameter": "-",
+		"Beschreibung": "Berechnet einen mathematischen Ausdruck",
+		"Description": "Calculates a math expression",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "chunkborders",
+		"Parameter": "-",
+		"Beschreibung": "Visualisiert Chunk-Grenzen. Zeigt die [[Chunk]]-Grenzen sowie Höhenlinien an",
+		"Description": "Visualizes chunk borders",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "chunkinfo",
+		"Parameter": "-",
+		"Beschreibung": "Chunk-Info",
+		"Description": "Chunk info",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "chunkpartinfo",
+		"Parameter": "-",
+		"Beschreibung": "Chunk-Teil-Info",
+		"Description": "Chunk part info",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "cleanup",
+		"Parameter": "<type>  (types: debris, items, trees, chunks)",
+		"Beschreibung": "Räumt Objekte vom Typ <type> in der Welt auf",
+		"Description": "Cleans up the server",
+		"Gruppe": "Welt"
+	},
+	{
+		"Konsolenbefehl": "clearinventory",
+		"Parameter": "-",
+		"Beschreibung": "Entfernt alle Gegenstände aus dem Inventar",
+		"Description": "Removes all items from your inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "clothing",
+		"Parameter": "<name> <amount> [color]",
+		"Beschreibung": "Fügt Ihrem Inventar ein neues Kleidungsstück hinzu. <br/>Siehe: [[Kleidung und Rüstung]] ",
+		"Description": "Adds a new piece of clothing to your inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "cls",
+		"Parameter": "-",
+		"Beschreibung": "Löscht alle Ausgaben in der Konsole",
+		"Description": "Clears the console output",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "commands",
+		"Parameter": "-",
+		"Beschreibung": "Gibt eine Liste aller Befehle aus, die Liste ist in der .log Datei",
+		"Description": "Gets an overview of all available console commands",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "connect",
+		"Parameter": "<ip> [port]",
+		"Beschreibung": "Verbindet mit einem Multiplayer-Server",
+		"Description": "Connects to a multiplayer server",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "constructioncollision",
+		"Parameter": "-",
+		"Beschreibung": "Kollisionen beim Bauen an oder ausschalten",
+		"Description": "Toggles the collision of elements while building",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "convertjavaimages",
+		"Parameter": "<directory>",
+		"Beschreibung": "Konvertiert alle Java .cimg-Bilddateien in PNG/JPG-Dateien (und speichert sie im selben Verzeichnis)",
+		"Description": "Converts all Java .cimg image files to png/jpg files (and stores them in the same directory)",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "coordinates",
+		"Parameter": "[saveto]  (targets: \"clipboard\" or a relative/absolute file path)",
+		"Beschreibung": "Zeigt die aktuellen Koordinaten an. Alternativ kopiert er sie in die Zwischenablage oder schreibt sie in eine Datei",
+		"Description": "Prints the current coordinates. Alternatively copies them into clipboard or writes them into a file",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "crashfolder",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet den Absturzordner im Datei-Explorer (sofern vorhanden)",
+		"Description": "Opens the crash folder in the file explorer (if it exists)",
+		"Gruppe": "Explorer"
+	},
+	{
+		"Konsolenbefehl": "createmapmarker",
+		"Parameter": "<x> <z> [icon] [rgba] [name] [size] [rotation] [global]",
+		"Beschreibung": "Erstellt eine Kartenmarkierung an einer beliebigen Position",
+		"Description": "Creates a map marker at an arbitrary position",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "cubemap",
+		"Parameter": "-",
+		"Beschreibung": "Speichert ein [[Screenshots|Screenshot]] als Cube Map",
+		"Description": "Saves a screenshot as a cube map",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "debugcorpses",
+		"Parameter": "-",
+		"Beschreibung": "Leichen debuggen",
+		"Description": "debug corpses",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "deletenpc",
+		"Parameter": "-",
+		"Beschreibung": "Löscht den NPC, den du gerade ansiehst. Nicht zu verwechseln mit \"deletenpcs\" ",
+		"Description": "Deletes the npc you're currently looking at. Not to be confused with \"deletenpcs\"",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "deletenpcs",
+		"Parameter": "[type] [radius]",
+		"Beschreibung": "Löscht alle NPCs in deiner Welt innerhalb eines bestimmten Bereichs. Optional können Sie es auf einen Typ einschränken",
+		"Description": "Deletes all npcs in your world within a certain range. Optionally you can restrict it to a type",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "deletesector",
+		"Parameter": "[sx] [sz]",
+		"Beschreibung": "Löscht einen Sektor (setzt den Sektor vollständig zurück, einschließlich aller darin enthaltenen Chunks). Um die Sektor-Koordinaten zu erhalten, gehe zum Sektor und drücke F3 (siehe obere Zeilen)",
+		"Description": "Deletes a sector (i.e. fully resets the sector including all chunks in it). To get the sector coordinates, move to the sector and press F3 (see top lines)",
+		"Gruppe": "Bauen, Welt"
+	},
+	{
+		"Konsolenbefehl": "disablenpc",
+		"Parameter": "<type>",
+		"Beschreibung": "Deaktiviert einen bestimmten NPC-Typ, sodass er nicht mehr auf natürliche Weise in Ihrer Welt erscheint. Betrifft nicht bereits vorhandene NPCs. <br/>Siehe auch <code>enablenpc</code> ",
+		"Description": "Disables a particular npc type, so it no longer spawns naturally in your world. Does not affect already existing npcs (to remove them, use \"deletenpcs <type>\")",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "displaymode",
+		"Parameter": "<mode> <br>(modes: \"fullscreen\" (0), \"borderless\" (1), \"windowed\" (3))",
+		"Beschreibung": "Ändert den Anzeigemodus. <br>0=Vollbild, 1=Randloses Fenster, 3=Fenstermodus",
+		"Description": "Changes the displaymode",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "edit",
+		"Parameter": "<action> <values...>  (supported actions: texture, color, shape, resize, setsize, rotate, setrotation, move, texturescale, flag)",
+		"Beschreibung": "Ändert das Element in der Welt, das Sie gerade betrachten",
+		"Description": "Modifies the element in the world you're currently looking at",
+		"Gruppe": "Bauen, Welt"
+	},
+	{
+		"Konsolenbefehl": "editnpc",
+		"Parameter": "-",
+		"Beschreibung": "Das Verhalten von Tieren/Npcs kann editiert und überschrieben werden (um sie zB feindlich oder friedlich zu stimmen)",
+		"Description": "Edits the npc",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "enablenpc",
+		"Parameter": "<type>",
+		"Beschreibung": "Aktiviert einen bestimmten NPC-Typ für diese Welt wieder. <br/>Siehe auch <code>disablenpc</code>",
+		"Description": "Re-enables a particular npc type for this world",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "findbase",
+		"Parameter": "[playername/uid]",
+		"Beschreibung": "Findet den Chunk mit der höchsten Dichte an Bauelementen oder Objekten",
+		"Description": "Finds the chunk with the highest density of construction elements or objects",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "flip",
+		"Parameter": "<axis>",
+		"Beschreibung": "Dreht das aktuell aktive Element entweder entlang der X-, Y- oder Z-Achse",
+		"Description": "Flips the currently active element either along the X, Y or Z axis",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "fog",
+		"Parameter": "-",
+		"Beschreibung": "Schaltet den Nebel vorübergehend um",
+		"Description": "Toggles the fog temporarily",
+		"Gruppe": "Debug, Welt"
+	},
+	{
+		"Konsolenbefehl": "fps",
+		"Parameter": "-",
+		"Beschreibung": "Schaltet die fps Anzeige um",
+		"Description": "Toggles the fps counter",
+		"Gruppe": "Debug, Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "gamedir",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet das R.W. Spielverzeichnis im Datei-Explorer",
+		"Description": "Opens the game directory in the file explorer",
+		"Gruppe": "Explorer, Debug"
+	},
+	{
+		"Konsolenbefehl": "gap",
+		"Parameter": "<value>",
+		"Beschreibung": "Setzt die Abstandgröße für das aktuell aktive Element (beim Platzieren mehrerer Elemente in einer Reihe)",
+		"Description": "Sets the gap size for the currently active element (when placing multiple elements in a row)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "gc",
+		"Parameter": "[milliseconds]",
+		"Beschreibung": "Löst die Ausführung des Garbage Collector aus, optional nur für eine bestimmte Zeit",
+		"Description": "Triggers the garbage collector to run, optionally only for a given amount of time",
+		"Gruppe": "Debug, Leistung"
+	},
+	{
+		"Konsolenbefehl": "getblueprintinfo",
+		"Parameter": "-",
+		"Beschreibung": "Blaupausen-Info abrufen",
+		"Description": "Get blueprint info",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "gethere",
+		"Parameter": "<player>",
+		"Beschreibung": "Teleportiert einen anderen Spieler zu deiner Position",
+		"Description": "Teleports another player to your position",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "getoption",
+		"Parameter": "<key>",
+		"Beschreibung": "Gibt den aktuell gesetzten Wert eines Optionsschlüssels (<key>) aus",
+		"Description": "Prints the currently set value of an option key",
+		"Gruppe": "Debug, Spiel"
+	},
+	{
+		"Konsolenbefehl": "getposterinfo",
+		"Parameter": "-",
+		"Beschreibung": "Posterinformationen erhalten",
+		"Description": "Get poster info",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "gm",
+		"Parameter": "<mode> <br/>(0 = Survival, 1 = Creative)",
+		"Beschreibung": "Ändert den Spielmodus. <br>0 = Überleben, 1 = Kreativ",
+		"Description": "Changes the game mode",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "goto",
+		"Parameter": "<x> <y> <z>  OR  goto <playername>",
+		"Beschreibung": "Teleportiert zu einem bestimmten Ort auf der Welt oder zu einem anderen Spieler",
+		"Description": "Teleports you to a given world location or to another player",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "gotodeathposition",
+		"Parameter": "-",
+		"Beschreibung": "Teleportiert Sie an die Stelle, an der Sie gestorben sind",
+		"Description": "Teleports you to the position where you died (only valid during this session)",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "gotodefaultspawn",
+		"Parameter": "-",
+		"Beschreibung": "Teleportiert Sie zur Standard-Spawnposition der Welt",
+		"Description": "Teleports you to the world default spawn position",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "gotomark",
+		"Parameter": "-",
+		"Beschreibung": "Teleportiert dich zur temporären Markierung",
+		"Description": "Teleport to the temporary mark",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "gotospawn",
+		"Parameter": "-",
+		"Beschreibung": "Teleportiert dich zu deiner Spawn-Position",
+		"Description": "Teleports you to your spawn position",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "gotosurface",
+		"Parameter": "-",
+		"Beschreibung": "Teleportiert dich an die Oberfläche",
+		"Description": "Teleports you to the surface",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "graphics",
+		"Parameter": "-",
+		"Beschreibung": "Zeigt Informationen über die aktuell verwendete Grafikkarte",
+		"Description": "Prints information about the currently used graphics card",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "help",
+		"Parameter": "<command>",
+		"Beschreibung": "Gibt Informationen über einen bestimmten Konsolenbefehl aus",
+		"Description": "Prints information about a specific console command",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "hideareas",
+		"Parameter": "-",
+		"Beschreibung": "Blendet alle Bereiche in der Welt aus. Um sie anzuzeigen, gib 'showareas' ein",
+		"Description": "Hides all areas in the world. To show them, type 'showareas'",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "hud",
+		"Parameter": "-",
+		"Beschreibung": "Schaltet das HUD ein oder aus",
+		"Description": "Toggles the hud",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "id",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "invite",
+		"Parameter": "<steamID>",
+		"Beschreibung": "Lädt einen Freund ein, an Ihrem Spiel teilzunehmen. Ihr Freund kann nur an Ihrem Spiel teilnehmen, wenn Sie eine Sitzung \"Mit Freunden spielen\" gestartet haben!",
+		"Description": "Invites a friend to join your game. Your friend will only be able to join your game if you have hosted a \"Play with friends\" session!",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "ip",
+		"Parameter": "-",
+		"Beschreibung": "Versucht, alle lokalen IP-Adressen (LAN) zu ermitteln",
+		"Description": "Tries to get all local IP addresses (LAN)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "item",
+		"Parameter": "<itemname> <amount> [variant]",
+		"Beschreibung": "Fügt Ihrem Inventar einen neuen Gegenstand hinzu. <br/>Siehe: [[Items]] ",
+		"Description": "Adds a new item to your inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "kick",
+		"Parameter": "<name/uid> [reason]",
+		"Beschreibung": "Wirft einen Spieler vom Server",
+		"Description": "Kicks a player from the server",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "listener",
+		"Parameter": "-",
+		"Beschreibung": "Friert die Position des Audio-Listeners ein oder hebt das Einfrieren auf",
+		"Description": "Freezes or unfreezes the audio listener position",
+		"Gruppe": "Debug, Spiel"
+	},
+	{
+		"Konsolenbefehl": "listenforinput",
+		"Parameter": "-",
+		"Beschreibung": "Wartet auf eine beliebige Tasten-Eingabe und gibt den erkannten Tasten-Namen (und das Gerät) aus",
+		"Description": "Listens for any key input and prints the detected key name (and device)",
+		"Gruppe": "Debug, Spiel"
+	},
+	{
+		"Konsolenbefehl": "loadpreset",
+		"Parameter": "<id/name>",
+		"Beschreibung": "Lädt eine Baugrößen-Voreinstellung",
+		"Description": "Loads a building size preset",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "loadworld",
+		"Parameter": "<worldname>",
+		"Beschreibung": "Lädt eine Welt",
+		"Description": "Loads a world",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "locknpc",
+		"Parameter": "-",
+		"Beschreibung": "Friert/sperrt den NPC ein, den du gerade ansiehst (sodass er sich nicht mehr bewegen kann)",
+		"Description": "Freezes/locks the npc you're currently looking at (so it can't move anymore)",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "lodbias",
+		"Parameter": "<bias>",
+		"Beschreibung": "Ändert den globalen LOD-Bias. Die Standardeinstellung ist 1. LOD = Level of Detail",
+		"Description": "Changes the global LOD bias. Default setting is 1",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "logs",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet den logs Ordner im Datei-Explorer",
+		"Description": "Opens the logs folder in the file explorer",
+		"Gruppe": "Debug, Explorer"
+	},
+	{
+		"Konsolenbefehl": "makeadmin",
+		"Parameter": "<name/uid>",
+		"Beschreibung": "Macht einen Spieler im Mehrspielermodus zum Admin",
+		"Description": "Makes a player an admin in multiplayer",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "mark",
+		"Parameter": "-",
+		"Beschreibung": "Speichert deine aktuelle Position als temporäre Teleportmarkierung. Nutze 'gotomark', um dich zu teleportieren",
+		"Description": "Saves your current location as temporary teleport position. Use 'gotomark' to teleport",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "maxfps",
+		"Parameter": "-",
+		"Beschreibung": "Setzt die maximale [[Bildrate]]. Das Setzen einer maximalen [[Bildrate]] kann dazu beitragen, die Leistung, Stabilität und das allgemeine Spielerlebnis zu verbessern.",
+		"Description": "Sets the max framerate",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "maxlodlevel",
+		"Parameter": "<lvl>",
+		"Beschreibung": "Setzt das maximale globale LOD-Niveau. Die Standardeinstellung ist 0",
+		"Description": "Sets the max global LOD level. Default setting is 0",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "memory",
+		"Parameter": "-",
+		"Beschreibung": "Gibt Informationen über die aktuelle Speichernutzung aus",
+		"Description": "Prints information about the current memory usage",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "mouse",
+		"Parameter": "-",
+		"Beschreibung": "Schaltet die Sichtbarkeit des Mauszeigers ein oder aus",
+		"Description": "Toggles visibility of the mouse cursor",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "movemode",
+		"Parameter": "<mode>",
+		"Beschreibung": "Ändert den manuellen Positionierungsmodus. Stellen Sie entweder WORLD (Standard) oder LOCAL ein. <br/><code>movemode LOCAL</code>",
+		"Description": "Changes the manual positioning mode. Either set WORLD (default) or LOCAL",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "networkstats",
+		"Parameter": "-",
+		"Beschreibung": "Gibt einige lokale Netzwerkinformationen aus (funktioniert nur im Mehrspielermodus)",
+		"Description": "Prints some local network info (only works in multiplayer)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "noclip",
+		"Parameter": "-",
+		"Beschreibung": "Schaltet den No-Clip-Modus für den Flugmodus ein oder aus. Aktiviert, ermöglicht es dir durch feste Objekte zu fliegen. ",
+		"Description": "Toggles no-clipping for fly mode",
+		"Gruppe": "Spiel, Debug"
+	},
+	{
+		"Konsolenbefehl": "object",
+		"Parameter": "<objectname> <amount> [variant]",
+		"Beschreibung": "Fügt Ihrem Inventar ein neues Objekt (z. B. Möbel) hinzu. <br/>Siehe: [[Objekt]] ",
+		"Description": "Adds a new object (like furniture) to your inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "offlineban",
+		"Parameter": "<uid> <duration> [reason]",
+		"Beschreibung": "Sperrt einen Spieler vom Server, der momentan nicht verbunden ist (Dauer in Sekunden). Setze die Dauer auf -1 für ein permanentes Verbot",
+		"Description": "Bans a player from the server who is currently not connected (duration in seconds). Set duration to -1 for a permanent ban",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "overridematerialproperty",
+		"Parameter": "-",
+		"Beschreibung": "Überschreibt die Materialeigenschaften eines Objekts",
+		"Description": "Overrides the material properties of an object",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "overrideregion",
+		"Parameter": "<sx> <sz> <region>  <br/>(regions: default, ocean, dry, cold)",
+		"Beschreibung": "Überschreibt die Biome-Region für einen Sektor. Beachte, dass der Sektor gelöscht werden muss, wenn er bereits generiert wurde",
+		"Description": "Overrides the biome region for a sector. Please note that if the sector is already generated, it's necessary to delete it",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "panorama",
+		"Parameter": "[resolution] [createpreview]",
+		"Beschreibung": "Speichert ein Panorama-[[Screenshots|Screenshot]]",
+		"Description": "Creates a panorama screenshot (equirectangular projection)",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "pivotmode",
+		"Parameter": "<mode>",
+		"Beschreibung": "Ändert den Pivot-Modus, entweder AUTOMATIC (Standard) oder MANUAL",
+		"Description": "Changes the pivot mode, either AUTOMATIC (default) or MANUAL",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "playerinfo",
+		"Parameter": "<uid>",
+		"Beschreibung": "Ruft Informationen über einen bestimmten Spieler ab (anhand seiner UID)",
+		"Description": "Gets some information about a particular player (by his UID)",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "playmusictrack",
+		"Parameter": "-",
+		"Beschreibung": "Spielt Musiktitel im Spiel ab",
+		"Description": "Plays music track in the game",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "playsound",
+		"Parameter": "<soundname> [parametername] [parametervalue] ...",
+		"Beschreibung": "Spielt einen bestimmten Soundeffekt an der Spielerposition ab",
+		"Description": "Plays a certain sound effect at the player position",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "posterinfo",
+		"Parameter": "-",
+		"Beschreibung": "Gibt alle Informationen zu einem Poster in der Spielwelt aus",
+		"Description": "Prints all information about a poster in the game",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "printchunkdata",
+		"Parameter": "-",
+		"Beschreibung": "Gibt die Chunk-Daten der aktuellen Spielwelt aus",
+		"Description": "Prints the chunk data of the current game world",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "printkeybindings",
+		"Parameter": "-",
+		"Beschreibung": "Schreibt alle aktuellen Tastenkombinationen in eine Textdatei im Spielverzeichnis mit dem Namen \"keybindings.txt\". <br>([[Unity-Version#Liste_der_Updates|Update 0.4.8]]) ",
+		"Description": "Prints all current key bindings to a text file in the game directory called \"keybindings.txt\"",
+		"Gruppe": "Debug, Spiel"
+	},
+	{
+		"Konsolenbefehl": "q",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Quits the game",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "refreshallchunks",
+		"Parameter": "-",
+		"Beschreibung": "Erzwingt das Neuladen aller aktuell geladenen Chunks",
+		"Description": "Forces all currently loaded chunks to reload",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "refreshchunk",
+		"Parameter": "-",
+		"Beschreibung": "Erzwingt das Neuladen des aktuellen Chunks",
+		"Description": "Forces the current chunk to reload",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "refreshinventory",
+		"Parameter": "-",
+		"Beschreibung": "Aktualisiert dein Inventar (synchronisiert es mit dem Server)",
+		"Description": "Refresh your inventory (sync it with server)",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "refreshmap",
+		"Parameter": "-",
+		"Beschreibung": "Aktualisiert die Ingame-Karte",
+		"Description": "Refreshes the ingame map",
+		"Gruppe": "Spiel, Teleport"
+	},
+	{
+		"Konsolenbefehl": "reloadoptions",
+		"Parameter": "-",
+		"Beschreibung": "Lädt die Einstellungen aus der config.properties-Datei neu",
+		"Description": "Reloads the settings from the config.properties file",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "reloadpermissions",
+		"Parameter": "-",
+		"Beschreibung": "Lädt die Berechtigungsdateien (aus dem \"Permissions\"-Ordner) neu",
+		"Description": "Reloads permission files (from the \"Permissions\" folder)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "reloadplugins",
+		"Parameter": "-",
+		"Beschreibung": "Lädt alle Plugins neu",
+		"Description": "Reloads all plugins (experimental feature)",
+		"Gruppe": "Plugins, Spiel"
+	},
+	{
+		"Konsolenbefehl": "reloadscheduler",
+		"Parameter": "-",
+		"Beschreibung": "Lädt die Server-Planungsdatei (scheduler.txt) neu",
+		"Description": "Reloads the server scheduler file (scheduler.txt)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "renderclothes",
+		"Parameter": "-",
+		"Beschreibung": "Erstellt Icons für alle Kleidungsstücke und speichert sie im [[Screenshots]]-Ordner. ",
+		"Description": "Creates icons for all clothes and stores them in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderconstruction",
+		"Parameter": "<shape> [resolution]",
+		"Beschreibung": "Erstellt Icons für dieses Bau-Element mit allen Texturen und speichert sie im [[Screenshots]]-Ordner. ",
+		"Description": "Creates icons for this construction element with all textures and stores them in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderitems",
+		"Parameter": "-",
+		"Beschreibung": "Rendert kleine Vorschaubilder für alle Items und speichert sie im [[Screenshots]]-Ordner.  <br/>Siehe: [[Items]] <br/>Rendering Speicherort: <br/>{{Dateipfad Rendering}} ",
+		"Description": "Creates icons for all items and stores them in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "rendernpcs",
+		"Parameter": "-",
+		"Beschreibung": "Rendert kleine Vorschaubilder für alle NPCs und speichert sie im [[Screenshots]]-Ordner. <br/>Rendering Speicherort: <br/>{{Dateipfad Rendering}} ",
+		"Description": "Creates icons for all npcs and stores them in the Screenshots folder",
+		"Gruppe": "Rendering, NPC"
+	},
+	{
+		"Konsolenbefehl": "renderobject",
+		"Parameter": "-",
+		"Beschreibung": "Erstellt Icons für ein bestimmtes Objekt und speichert es im [[Screenshots]]-Ordner. ",
+		"Description": "Creates icons for a particular object and stores it in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderobjects",
+		"Parameter": "-",
+		"Beschreibung": "Rendert kleine Vorschaubilder für alle Objekte und speichert sie im [[Screenshots]]-Ordner. ",
+		"Description": "Creates icons for all objects and stores them in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderplants",
+		"Parameter": "-",
+		"Beschreibung": "Rendert kleine Vorschaubilder für alle Pflanzen und speichert sie im [[Screenshots]]-Ordner. ",
+		"Description": "Creates icons for all plants and stores them in the Screenshots folder",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderplayer",
+		"Parameter": "[resolution]",
+		"Beschreibung": "Erstellt ein Bild des aktuellen Spielermodells (einschließlich der aktuellen Kleidung)",
+		"Description": "Creates an image of the current player model (including the current clothes)",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "renderworld",
+		"Parameter": "[resolution]",
+		"Beschreibung": "Erstellt einen orthographischen Top-Down-Screenshot der aktuell gerenderten Welt",
+		"Description": "Creates an orthographic top-down screenshot of the currently rendered world",
+		"Gruppe": "Rendering"
+	},
+	{
+		"Konsolenbefehl": "report",
+		"Parameter": "-",
+		"Beschreibung": "Erstellt einen neuen Fehlerbericht (ruft das Berichtstool auf)",
+		"Description": "Creates a new error report (brings up the report tool)",
+		"Gruppe": "Debug, Spiel"
+	},
+	{
+		"Konsolenbefehl": "resetcamerarotation",
+		"Parameter": "-",
+		"Beschreibung": "Setzt die Kamerarotation zurück",
+		"Description": "Resets the camera rotation",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "resetinput",
+		"Parameter": "-",
+		"Beschreibung": "Setzt alle Eingaben zurück",
+		"Description": "Resets all input",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "resolution",
+		"Parameter": "<width> <height>",
+		"Beschreibung": "Ändert die Auflösung",
+		"Description": "Changes the resolution",
+		"Gruppe": "Spiel, Leistung"
+	},
+	{
+		"Konsolenbefehl": "resolutionscale",
+		"Parameter": "<scale>",
+		"Beschreibung": "Ändert die Auflösungs-Skalierung (0-1)",
+		"Description": "Changes the resolution scale (0-1)",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "restart",
+		"Parameter": "<seconds>",
+		"Beschreibung": "Startet den Server in x Sekunden neu, d.h. sendet eine Nachricht über den bevorstehenden Neustart an alle Spieler und startet den Serverprozess neu (funktioniert nur im Mehrspielermodus)",
+		"Description": "Restarts the server in x seconds, i.e. broadcasts a message about the impending restart to all players and restarts the server process (only works in multiplayer)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "revokeadmin",
+		"Parameter": "<name/uid>",
+		"Beschreibung": "Entzieht einem Spieler im Mehrspielermodus die Administratorrechte",
+		"Description": "Revokes admin rights from a player in multiplayer",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "rotate",
+		"Parameter": "<X> <Y> <Z>  OR  rotate <Y>",
+		"Beschreibung": "Rotiert das aktuell aktive Element entlang der X (Nick), Y (Gier) und Z (Roll) Achse",
+		"Description": "Rotates the currently active element along the X (pitch), Y (yaw) and Z (roll) axis",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "rotation",
+		"Parameter": "<X> <Y> <Z>  OR  rotation <Y>",
+		"Beschreibung": "Setzt eine absolute Rotation für das aktuell aktive Element entlang der X (Nick), Y (Gier) und Z (Roll) Achse",
+		"Description": "Sets an absolute rotation for the currently active element along the X (pitch), Y (yaw) and Z (roll) axis",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "rotationmode",
+		"Parameter": "<mode>",
+		"Beschreibung": "Ändert den Rotationsmodus. Entweder WORLD, LOCAL oder LEGACY (Standard)",
+		"Description": "Changes the rotation mode. Either set WORLD, LOCAL or LEGACY (default)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "rp",
+		"Parameter": "-",
+		"Beschreibung": "Lädt alle Plugins neu",
+		"Description": "Reloads all plugins (experimental feature)",
+		"Gruppe": "Plugins"
+	},
+	{
+		"Konsolenbefehl": "saveoptions",
+		"Parameter": "-",
+		"Beschreibung": "Optionen speichern. Schreibt alle nicht gespeicherten Einstellungen in die Datei config.properties ",
+		"Description": "Writes all unsaved settings to the config.properties file",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "savepreset",
+		"Parameter": "<id> [name]",
+		"Beschreibung": "Speichert eine Größenvorlage",
+		"Description": "Saves a building size preset",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "screenshot",
+		"Parameter": "[width] [height]",
+		"Beschreibung": "Macht einen [[Screenshots|Screenshot]]",
+		"Description": "Takes a screenshot",
+		"Gruppe": "Rendering, Spiel"
+	},
+	{
+		"Konsolenbefehl": "servergc",
+		"Parameter": "-",
+		"Beschreibung": "Ruft den serverseitigen Garbage Collector auf, um ungenutzten Speicher freizugeben",
+		"Description": "Invokes the serverside garbage collector to free up unused memory",
+		"Gruppe": "Debug, Leistung, Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "serverinfo",
+		"Parameter": "<type>",
+		"Beschreibung": "Erhält Informationen über den Server (Typen: Speicher, Chunks, Netzwerk)",
+		"Description": "Gets some information about the server (types: memory, chunks, network)",
+		"Gruppe": "Debug, Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "setaudiodriver",
+		"Parameter": "<driver>",
+		"Beschreibung": "DE",
+		"Description": "Changes the currently active audio output driver",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "setl",
+		"Parameter": "<precision>",
+		"Beschreibung": "DE",
+		"Description": "Sets the scale precision (when resizing an element)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "setofflineplayergroup",
+		"Parameter": "<uid> <groupname>",
+		"Beschreibung": "DE",
+		"Description": "Sets the permission group of an offline player. Either provide the group name, or \"default\" / \"null\" for the default permission",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "setoption",
+		"Parameter": "<key> <value>",
+		"Beschreibung": "Ändert eine Option und speichert den aktualisierten Wert in der Konfigurationsdatei",
+		"Description": "Changes an option key and stores the updated value in the config file",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "setp",
+		"Parameter": "<precision>",
+		"Beschreibung": "DE",
+		"Description": "Sets the placement precision (when moving an element manually)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "setplayergroup",
+		"Parameter": "<name/uid> <groupname>",
+		"Beschreibung": "Legt die Berechtigungsgruppe eines Spielers fest.",
+		"Description": "Sets the permission group of a player. Either provide the group name, or \"default\" / \"null\" for the default permission",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "setr",
+		"Parameter": "<precision>",
+		"Beschreibung": "Legt die Rotationsgenauigkeit fest (beim Drehen eines Elements)",
+		"Description": "Sets the rotation precision (when rotating an element)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "setsnowiness",
+		"Parameter": "<0-1>",
+		"Beschreibung": "Legt den globalen Schneewert fest. Überschreibt Nässe",
+		"Description": "Sets the global snowiness value. Overrides wetness",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "setspawn",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Sets the global default spawn position to your current position",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "setspawninventory",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Sets the global default spawn inventory to your current inventory",
+		"Gruppe": "Inventar"
+	},
+	{
+		"Konsolenbefehl": "settimespeed",
+		"Parameter": "<speed> <br/>(default speed ist 1.75, die Echtzeit beträgt 60)",
+		"Beschreibung": "Gibt an, wie viele Echtzeitsekunden vergehen, bis die Spielzeit um eine Minute vorrückt",
+		"Description": "Specifies how many realtime seconds elapse until the ingame time advances by one minute",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "setwetness",
+		"Parameter": "<0-1>",
+		"Beschreibung": "DE",
+		"Description": "Sets the global wetness value. Overrides snowiness",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "showareas",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Shows all areas in the world. To hide them, type 'hideareas'",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "showballistictrajectory",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Visualizes the ballistic trajectory of projectiles",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "shutdown",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Shuts the server down (only works in multiplayer)",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "size",
+		"Parameter": "<X> <Y> <Z>",
+		"Beschreibung": "DE",
+		"Description": "Sets the size of the currently active element along the X (width), Y (height) and Z (depth) axis",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "skyrotation",
+		"Parameter": "<rotation> <br/>(default rotation is 0)",
+		"Beschreibung": "Bestimmt die Ausrichtung des Himmels bzw. von Sonne/Mond (Update 0.4.8)",
+		"Description": "Changes the rotation of the sky, which affects the direction where the sun rises and sets",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "spawnnpc",
+		"Parameter": "<ID> [variant] <br/>\r\n<ID> [variant] locked",
+		"Beschreibung": "Spawnt / erzeugt einen NPC vor dir. <br/>Siehe: [[Tiere]], [[Gegner]] \r\n z.B.: \r\n *<code>spawnnpc bear</code> \r\n *<code>spawnnpc scorpion locked</code> - NPC wird eingefroren <br/>\r\n *<code>spawnnpc barbarian</code> \r\n *<code>spawnnpc bandit 1</code> \r\n *<code>spawnnpc dummy locked</code> ",
+		"Description": "Spawns an npc in front of you",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "spawnvehicle",
+		"Parameter": "<ID>",
+		"Beschreibung": "Spawnt / erzeugt ein Fahrzeug vor dir. \r\n *<code>spawnvehicle rib</code> \r\n *<code>spawnvehicle sailboat</code> ",
+		"Description": "Spawns a vehicle in front of you",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "surfaceoffset",
+		"Parameter": "<X> <Y> <Z>",
+		"Beschreibung": "DE",
+		"Description": "Sets the surface offset of the currently active element along the X (width), Y (height) and Z (depth) axis. Default is 0 0 0",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "surfacescale",
+		"Parameter": "<X> <Y> <Z>",
+		"Beschreibung": "DE",
+		"Description": "Sets the surface scale of the currently active element along the X (width), Y (height) and Z (depth) axis. Default is 1 1 1",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "swapsize",
+		"Parameter": "<axis1> <axis2>",
+		"Beschreibung": "DE",
+		"Description": "Swaps the scale of the currently active element. Swaps axis 1 with axis 2 (e.g. X and Z axis size values)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "system",
+		"Parameter": "-",
+		"Beschreibung": "Zeigt einige Systeminformationen",
+		"Description": "Prints some system information",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "targetmonitor",
+		"Parameter": "<monitor>",
+		"Beschreibung": "DE",
+		"Description": "Changes the target monitor. Use 0 to switch to your main monitor",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "teleport",
+		"Parameter": "<toplayer>  OR  teleport <player> <toplayer>",
+		"Beschreibung": "Teleportiert dich zu einem anderen Spieler <br/> oder teleportiert einen bestimmten Spieler zu einem anderen Spieler",
+		"Description": "Teleports you to another player or teleports a particular player to another player",
+		"Gruppe": "Teleport"
+	},
+	{
+		"Konsolenbefehl": "texturealignment",
+		"Parameter": "<type>  <br/>(valid types: default, world, local)",
+		"Beschreibung": "Überschreibt die Texturausrichtung für das aktuell aktive Konstruktionselement. <br/><code>texturealignment default</code>",
+		"Description": "Overrides the texture alignment for the currently active construction element",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "texturescale",
+		"Parameter": "<Skalierungsfaktor>",
+		"Beschreibung": "Ändert den Textur-Skalierungsfaktor für das aktuell aktive Konstruktionselement. <br/><code>texturescale 0.25</code><br/><code>texturescale 1</code> ",
+		"Description": "Changes the texture scale for the currently active construction element",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "tod",
+		"Parameter": "<Stunden> <Minuten>",
+		"Beschreibung": "Stellt die aktuelle Tageszeit (Uhrzeit) ein. <br/><code>tod 11 25</code>",
+		"Description": "Sets the current time of day",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "toggleterrain",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Hides/shows the terrain and vegetation (also affects collision, so enable flying mode via F2 first)",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "togglewater",
+		"Parameter": "-",
+		"Beschreibung": "Aktiviert/deaktiviert die Wassereffekte <br/> und macht die Wasseroberfläche unsichtbar.",
+		"Description": "Enables/disables water effects",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "toggleworldgeneration",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Stops/resumes the world generation",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "uidebugger",
+		"Parameter": "[? / layername]",
+		"Beschreibung": "Schaltet den UI-Debugger um (nützlich, um Namen/Pfade von UI-Elementen für die Plugin-API abzurufen). <br>([[Unity-Version#Liste_der_Updates|Update 0.6]]) ",
+		"Description": "Toggles the UI debugger (useful to get names/paths of UI elements for Plugin API)",
+		"Gruppe": "Debug, Plugins"
+	},
+	{
+		"Konsolenbefehl": "unban",
+		"Parameter": "<uid>",
+		"Beschreibung": "DE",
+		"Description": "Unbans a player, i.e. lifts a ban in multiplayer",
+		"Gruppe": "Mehrspieler"
+	},
+	{
+		"Konsolenbefehl": "undo",
+		"Parameter": "-",
+		"Beschreibung": "Macht die letzte destruktive Aktion rückgängig (stellt z. B. das letzte zerstörte Element wieder her)",
+		"Description": "Reverts the last destructive action (e.g. restores the last element you've destroyed)",
+		"Gruppe": "Bauen"
+	},
+	{
+		"Konsolenbefehl": "undress",
+		"Parameter": "-",
+		"Beschreibung": "Zieht alle Kleidungsstücke aus, die Sie gerade tragen",
+		"Description": "Takes off all clothes you're currently wearing",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "unityversion",
+		"Parameter": "-",
+		"Beschreibung": "Zeigt die aktuelle Unity Engine-Version",
+		"Description": "Prints the current engine version",
+		"Gruppe": "Debug"
+	},
+	{
+		"Konsolenbefehl": "unloadplugins",
+		"Parameter": "-",
+		"Beschreibung": "Entlädt alle Plugins",
+		"Description": "Unloads all plugins (experimental feature)",
+		"Gruppe": "Plugins"
+	},
+	{
+		"Konsolenbefehl": "unlocknpc",
+		"Parameter": "-",
+		"Beschreibung": "Entfriert den NPC, den du gerade anschaust",
+		"Description": "Unfreezes the npc you're currently looking at",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "viewdistance",
+		"Parameter": "<detail> <total> [buildings]",
+		"Beschreibung": "DE",
+		"Description": "Changes the view distance",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "visualizenpcs",
+		"Parameter": "-",
+		"Beschreibung": "Visualisiert alle aktuell geladenen NPCs in der Szene",
+		"Description": "Visualizes all currently loaded npcs in the scene",
+		"Gruppe": "NPC"
+	},
+	{
+		"Konsolenbefehl": "visualizeobjects",
+		"Parameter": "-",
+		"Beschreibung": "Visualisiert alle aktuell geladenen Objekte (Möbel, Türen etc.) in der Szene",
+		"Description": "Visualizes all currently loaded objects (furniture, doors etc) in the scene",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "visualizevehicles",
+		"Parameter": "-",
+		"Beschreibung": "DE",
+		"Description": "Visualizes all currently loaded vehicles in the scene",
+		"Gruppe": ""
+	},
+	{
+		"Konsolenbefehl": "volume",
+		"Parameter": "<sound/music> <value>",
+		"Beschreibung": "Stellt die Master-Sound- bzw. Musiklautstärke ein",
+		"Description": "Sets the master sound or music volume",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "weather",
+		"Parameter": "<type> [instant 0/1] (types: default, clear, breeze, overcast, rain, heavyrain, snow, heavysnow, lightsnow, cold, fog, densefog, storm)",
+		"Beschreibung": "Ändert das aktuelle Wetter im Spiel",
+		"Description": "Changes current ingame weather",
+		"Gruppe": "Spiel"
+	},
+	{
+		"Konsolenbefehl": "worldbackup",
+		"Parameter": "-",
+		"Beschreibung": "Erstellt ein Backup der aktuell geladenen Welt. Optional kann das Backup komprimiert werden (Achtung: das dauert eine Weile) ",
+		"Description": "Creates a backup of the currently loaded world. Optionally zips the backup (warning: this takes a while)",
+		"Gruppe": "Welt"
+	},
+	{
+		"Konsolenbefehl": "worlddir",
+		"Parameter": "-",
+		"Beschreibung": "Öffnet das Weltverzeichnis im Datei-Explorer",
+		"Description": "Opens the world directory in the file explorer",
+		"Gruppe": "Explorer, Welt"
+	},
+	{
+		"Konsolenbefehl": "yell",
+		"Parameter": "<message>",
+		"Beschreibung": "Sendet eine Schreinachricht an alle Spieler",
+		"Description": "Sends a yell message to all players (multiplayer)",
+		"Gruppe": "Mehrspieler"
+	}
+]
