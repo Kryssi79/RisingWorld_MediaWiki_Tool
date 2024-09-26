@@ -32,5 +32,8 @@ https://www.rising-world-wiki.de/index.php?title=Werkbank
 ---------------------------------------------------------------------------
 Download: 
 
+github - RisingWorld_MediaWiki_Tool
+https://github.com/Kryssi79/RisingWorld_MediaWiki_Tool
+
 Rising World Forum - MediaWiki Tool (für R.W. neue Version) 
 https://forum.rising-world.net/thread/12714-mediawiki-tool-f%C3%BCr-r-w-neue-version/

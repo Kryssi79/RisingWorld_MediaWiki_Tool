@@ -1,0 +1,856 @@
+{| class="wikitable sortable"  style="margin-left:1px;" 
+! Befehl 
+! Parameter 
+! Beschreibung !! Description<br/>(orginal) 
+|-
+|  backups 
+|  - 
+|  Öffnet das Welt Backup-Verzeichnis im Datei-Explorer 
+|  Opens the world backup directory in the file explorer 
+|-
+|  bag 
+|  <item1> <item2> <item3> ... 
+|  Fügt dem Inventar einen Taschengegenstand mit Items hinzu. <br/>Siehe: [[Items]] 
+ z.B.: 
+ *<code>bag sword1</code> 
+ *<code>bag apple bread carrot</code>  
+|  Adds a bag item (which contains other items) to your inventory 
+|-
+|  ban 
+|  <name/uid> <duration> [reason] 
+|  Sperrt einen Spieler für eine bestimmte Zeit vom Server 
+|  Bans a player from the server for a given amount of time (seconds). Set duration to -1 for a permanent ban 
+|-
+|  blocks 
+|  - 
+|  Öffnet eine Blockauswahl, in der Sie eine Blockform und -textur auswählen können. 
+|  Brings up a block selection where you can select a block shape and texture 
+|-
+|  blueprintinfo 
+|  - 
+|  Blaupausen-Info 
+|  blueprint info 
+|-
+|  blueprints 
+|  - 
+|  Ruft das Blueprint-Menü auf 
+|  Brings up the blueprint menu. If there is no blueprint table in proximity, this command only works in creative mode 
+|-
+|  buildinfo 
+|  - 
+|  Zeigt Informationen zum aktuellen Build (Entwicklungsstufe) von Rising World an 
+|  Prints information about the current build 
+|-
+|  calc 
+|  - 
+|  Berechnet einen mathematischen Ausdruck 
+|  Calculates a math expression 
+|-
+|  chunkborders 
+|  - 
+|  Visualisiert Chunk-Grenzen. Zeigt die [[Chunk]]-Grenzen sowie Höhenlinien an 
+|  Visualizes chunk borders 
+|-
+|  chunkinfo 
+|  - 
+|  Chunk-Info 
+|  Chunk info 
+|-
+|  chunkpartinfo 
+|  - 
+|  Chunk-Teil-Info 
+|  Chunk part info 
+|-
+|  cleanup 
+|  <type> <br/>(types: debris, items, trees, chunks) 
+|  Räumt Objekte vom Typ <type> in der Welt auf 
+|  Cleans up the server 
+|-
+|  clearinventory 
+|  - 
+|  Entfernt alle Gegenstände aus dem Inventar 
+|  Removes all items from your inventory 
+|-
+|  clothing 
+|  <name> <amount> [color] 
+|  Fügt Ihrem Inventar ein neues Kleidungsstück hinzu. <br/>Siehe: [[Kleidung und Rüstung]]  
+|  Adds a new piece of clothing to your inventory 
+|-
+|  cls 
+|  - 
+|  Löscht alle Ausgaben in der Konsole 
+|  Clears the console output 
+|-
+|  commands 
+|  - 
+|  Gibt eine Liste aller Befehle aus, die Liste ist in der .log Datei 
+|  Gets an overview of all available console commands 
+|-
+|  connect 
+|  <ip> [port] 
+|  Verbindet mit einem Multiplayer-Server 
+|  Connects to a multiplayer server 
+|-
+|  constructioncollision 
+|  - 
+|  Kollisionen beim Bauen an oder ausschalten 
+|  Toggles the collision of elements while building 
+|-
+|  convertjavaimages 
+|  <directory> 
+|  Konvertiert alle Java .cimg-Bilddateien in PNG/JPG-Dateien (und speichert sie im selben Verzeichnis) 
+|  Converts all Java .cimg image files to png/jpg files (and stores them in the same directory) 
+|-
+|  coordinates 
+|  [saveto]  (targets: "clipboard" or a relative/absolute file path) 
+|  Zeigt die aktuellen Koordinaten an. Alternativ kopiert er sie in die Zwischenablage oder schreibt sie in eine Datei 
+|  Prints the current coordinates. Alternatively copies them into clipboard or writes them into a file 
+|-
+|  crashfolder 
+|  - 
+|  Öffnet den Absturzordner im Datei-Explorer (sofern vorhanden) 
+|  Opens the crash folder in the file explorer (if it exists) 
+|-
+|  createmapmarker 
+|  <x> <z> [icon] [rgba] [name] [size] [rotation] [global] 
+|  Erstellt eine Kartenmarkierung an einer beliebigen Position 
+|  Creates a map marker at an arbitrary position 
+|-
+|  cubemap 
+|  - 
+|  Speichert ein [[Screenshots|Screenshot]] als Cube Map 
+|  Saves a screenshot as a cube map 
+|-
+|  debugcorpses 
+|  - 
+|  Leichen debuggen 
+|  debug corpses 
+|-
+|  deletenpc 
+|  - 
+|  Löscht den NPC, den du gerade ansiehst. Nicht zu verwechseln mit "deletenpcs"  
+|  Deletes the npc you're currently looking at. Not to be confused with "deletenpcs" 
+|-
+|  deletenpcs 
+|  [type] [radius] 
+|  Löscht alle NPCs in deiner Welt innerhalb eines bestimmten Bereichs. Optional können Sie es auf einen Typ einschränken 
+|  Deletes all npcs in your world within a certain range. Optionally you can restrict it to a type 
+|-
+|  deletesector 
+|  [sx] [sz] 
+|  Löscht einen Sektor (setzt den Sektor vollständig zurück, einschließlich aller darin enthaltenen Chunks). Um die Sektor-Koordinaten zu erhalten, gehe zum Sektor und drücke F3 (siehe obere Zeilen) 
+|  Deletes a sector (i.e. fully resets the sector including all chunks in it). To get the sector coordinates, move to the sector and press F3 (see top lines) 
+|-
+|  disablenpc 
+|  <type> 
+|  Deaktiviert einen bestimmten NPC-Typ, sodass er nicht mehr auf natürliche Weise in Ihrer Welt erscheint. Betrifft nicht bereits vorhandene NPCs. <br/>Siehe auch <code>enablenpc</code>  
+|  Disables a particular npc type, so it no longer spawns naturally in your world. Does not affect already existing npcs (to remove them, use "deletenpcs <type>") 
+|-
+|  displaymode 
+|  <mode> <br/>(modes: "fullscreen" (0), "borderless" (1), "windowed" (3)) 
+|  Ändert den Anzeigemodus. <br>0=Vollbild, 1=Randloses Fenster, 3=Fenstermodus 
+|  Changes the displaymode 
+|-
+|  edit 
+|  <action> <values...> <br/>(supported actions: texture, color, shape, resize, setsize, rotate, setrotation, move, texturescale, flag) 
+|  Ändert das Element in der Welt, das Sie gerade betrachten 
+|  Modifies the element in the world you're currently looking at 
+|-
+|  editnpc 
+|  - 
+|  Das Verhalten von Tieren/Npcs kann editiert und überschrieben werden (um sie zB feindlich oder friedlich zu stimmen) 
+|  Edits the npc 
+|-
+|  enablenpc 
+|  <type> 
+|  Aktiviert einen bestimmten NPC-Typ für diese Welt wieder. <br/>Siehe auch <code>disablenpc</code> 
+|  Re-enables a particular npc type for this world 
+|-
+|  findbase 
+|  [playername/uid] 
+|  Findet den Chunk mit der höchsten Dichte an Bauelementen oder Objekten 
+|  Finds the chunk with the highest density of construction elements or objects 
+|-
+|  flip 
+|  <axis> 
+|  Dreht das aktuell aktive Element entweder entlang der X-, Y- oder Z-Achse 
+|  Flips the currently active element either along the X, Y or Z axis 
+|-
+|  fog 
+|  - 
+|  Schaltet den Nebel vorübergehend um 
+|  Toggles the fog temporarily 
+|-
+|  fps 
+|  - 
+|  Schaltet die fps Anzeige um 
+|  Toggles the fps counter 
+|-
+|  gamedir 
+|  - 
+|  Öffnet das R.W. Spielverzeichnis im Datei-Explorer 
+|  Opens the game directory in the file explorer 
+|-
+|  gap 
+|  <value> 
+|  Setzt die Abstandgröße für das aktuell aktive Element (beim Platzieren mehrerer Elemente in einer Reihe) 
+|  Sets the gap size for the currently active element (when placing multiple elements in a row) 
+|-
+|  gc 
+|  [milliseconds] 
+|  Löst die Ausführung des Garbage Collector aus, optional nur für eine bestimmte Zeit 
+|  Triggers the garbage collector to run, optionally only for a given amount of time 
+|-
+|  getblueprintinfo 
+|  - 
+|  Blaupausen-Info abrufen 
+|  Get blueprint info 
+|-
+|  gethere 
+|  <player> 
+|  Teleportiert einen anderen Spieler zu deiner Position 
+|  Teleports another player to your position 
+|-
+|  getoption 
+|  <key> 
+|  Gibt den aktuell gesetzten Wert eines Optionsschlüssels (<key>) aus 
+|  Prints the currently set value of an option key 
+|-
+|  getposterinfo 
+|  - 
+|  Posterinformationen erhalten 
+|  Get poster info 
+|-
+|  gm 
+|  <mode> <br/>(0 = Survival, 1 = Creative) 
+|  Ändert den Spielmodus. <br>0 = Überleben, 1 = Kreativ 
+|  Changes the game mode 
+|-
+|  goto 
+|  <x> <y> <z>  OR  goto <playername> 
+|  Teleportiert zu einem bestimmten Ort auf der Welt oder zu einem anderen Spieler 
+|  Teleports you to a given world location or to another player 
+|-
+|  gotodeathposition 
+|  - 
+|  Teleportiert Sie an die Stelle, an der Sie gestorben sind 
+|  Teleports you to the position where you died (only valid during this session) 
+|-
+|  gotodefaultspawn 
+|  - 
+|  Teleportiert Sie zur Standard-Spawnposition der Welt 
+|  Teleports you to the world default spawn position 
+|-
+|  gotomark 
+|  - 
+|  Teleportiert dich zur temporären Markierung 
+|  Teleport to the temporary mark 
+|-
+|  gotospawn 
+|  - 
+|  Teleportiert dich zu deiner Spawn-Position 
+|  Teleports you to your spawn position 
+|-
+|  gotosurface 
+|  - 
+|  Teleportiert dich an die Oberfläche 
+|  Teleports you to the surface 
+|-
+|  graphics 
+|  - 
+|  Zeigt Informationen über die aktuell verwendete Grafikkarte 
+|  Prints information about the currently used graphics card 
+|-
+|  help 
+|  <command> 
+|  Gibt Informationen über einen bestimmten Konsolenbefehl aus 
+|  Prints information about a specific console command 
+|-
+|  hideareas 
+|  - 
+|  Blendet alle Bereiche in der Welt aus. Um sie anzuzeigen, gib 'showareas' ein 
+|  Hides all areas in the world. To show them, type 'showareas' 
+|-
+|  hud 
+|  - 
+|  Schaltet das HUD ein oder aus 
+|  Toggles the hud 
+|-
+|  id 
+|  - 
+|  DE 
+|   
+|-
+|  invite 
+|  <steamID> 
+|  Lädt einen Freund ein, an Ihrem Spiel teilzunehmen. Ihr Freund kann nur an Ihrem Spiel teilnehmen, wenn Sie eine Sitzung "Mit Freunden spielen" gestartet haben! 
+|  Invites a friend to join your game. Your friend will only be able to join your game if you have hosted a "Play with friends" session! 
+|-
+|  ip 
+|  - 
+|  Versucht, alle lokalen IP-Adressen (LAN) zu ermitteln 
+|  Tries to get all local IP addresses (LAN) 
+|-
+|  item 
+|  <itemname> <amount> [variant] 
+|  Fügt Ihrem Inventar einen neuen Gegenstand hinzu. <br/>Siehe: [[Items]]  
+|  Adds a new item to your inventory 
+|-
+|  kick 
+|  <name/uid> [reason] 
+|  Wirft einen Spieler vom Server 
+|  Kicks a player from the server 
+|-
+|  listener 
+|  - 
+|  Friert die Position des Audio-Listeners ein oder hebt das Einfrieren auf 
+|  Freezes or unfreezes the audio listener position 
+|-
+|  listenforinput 
+|  - 
+|  Wartet auf eine beliebige Tasten-Eingabe und gibt den erkannten Tasten-Namen (und das Gerät) aus 
+|  Listens for any key input and prints the detected key name (and device) 
+|-
+|  loadpreset 
+|  <id/name> 
+|  Lädt eine Baugrößen-Voreinstellung 
+|  Loads a building size preset 
+|-
+|  loadworld 
+|  <worldname> 
+|  Lädt eine Welt 
+|  Loads a world 
+|-
+|  locknpc 
+|  - 
+|  Friert/sperrt den NPC ein, den du gerade ansiehst (sodass er sich nicht mehr bewegen kann) 
+|  Freezes/locks the npc you're currently looking at (so it can't move anymore) 
+|-
+|  lodbias 
+|  <bias> 
+|  Ändert den globalen LOD-Bias. Die Standardeinstellung ist 1. LOD = Level of Detail 
+|  Changes the global LOD bias. Default setting is 1 
+|-
+|  logs 
+|  - 
+|  Öffnet den logs Ordner im Datei-Explorer 
+|  Opens the logs folder in the file explorer 
+|-
+|  makeadmin 
+|  <name/uid> 
+|  Macht einen Spieler im Mehrspielermodus zum Admin 
+|  Makes a player an admin in multiplayer 
+|-
+|  mark 
+|  - 
+|  Speichert deine aktuelle Position als temporäre Teleportmarkierung. Nutze 'gotomark', um dich zu teleportieren 
+|  Saves your current location as temporary teleport position. Use 'gotomark' to teleport 
+|-
+|  maxfps 
+|  - 
+|  Setzt die maximale [[Bildrate]]. Das Setzen einer maximalen [[Bildrate]] kann dazu beitragen, die Leistung, Stabilität und das allgemeine Spielerlebnis zu verbessern. 
+|  Sets the max framerate 
+|-
+|  maxlodlevel 
+|  <lvl> 
+|  Setzt das maximale globale LOD-Niveau. Die Standardeinstellung ist 0 
+|  Sets the max global LOD level. Default setting is 0 
+|-
+|  memory 
+|  - 
+|  Gibt Informationen über die aktuelle Speichernutzung aus 
+|  Prints information about the current memory usage 
+|-
+|  mouse 
+|  - 
+|  Schaltet die Sichtbarkeit des Mauszeigers ein oder aus 
+|  Toggles visibility of the mouse cursor 
+|-
+|  movemode 
+|  <mode> 
+|  Ändert den manuellen Positionierungsmodus. Stellen Sie entweder WORLD (Standard) oder LOCAL ein. <br/><code>movemode LOCAL</code> 
+|  Changes the manual positioning mode. Either set WORLD (default) or LOCAL 
+|-
+|  networkstats 
+|  - 
+|  Gibt einige lokale Netzwerkinformationen aus (funktioniert nur im Mehrspielermodus) 
+|  Prints some local network info (only works in multiplayer) 
+|-
+|  noclip 
+|  - 
+|  Schaltet den No-Clip-Modus für den Flugmodus ein oder aus. Aktiviert, ermöglicht es dir durch feste Objekte zu fliegen.  
+|  Toggles no-clipping for fly mode 
+|-
+|  object 
+|  <objectname> <amount> [variant] 
+|  Fügt Ihrem Inventar ein neues Objekt (z. B. Möbel) hinzu. <br/>Siehe: [[Objekt]]  
+|  Adds a new object (like furniture) to your inventory 
+|-
+|  offlineban 
+|  <uid> <duration> [reason] 
+|  Sperrt einen Spieler vom Server, der momentan nicht verbunden ist (Dauer in Sekunden). Setze die Dauer auf -1 für ein permanentes Verbot 
+|  Bans a player from the server who is currently not connected (duration in seconds). Set duration to -1 for a permanent ban 
+|-
+|  overridematerialproperty 
+|  - 
+|  Überschreibt die Materialeigenschaften eines Objekts 
+|  Overrides the material properties of an object 
+|-
+|  overrideregion 
+|  <sx> <sz> <region> <br/>(regions: default, ocean, dry, cold) 
+|  Überschreibt die Biome-Region für einen Sektor. Beachte, dass der Sektor gelöscht werden muss, wenn er bereits generiert wurde 
+|  Overrides the biome region for a sector. Please note that if the sector is already generated, it's necessary to delete it 
+|-
+|  panorama 
+|  [resolution] [createpreview] 
+|  Speichert ein Panorama-[[Screenshots|Screenshot]] 
+|  Creates a panorama screenshot (equirectangular projection) 
+|-
+|  pivotmode 
+|  <mode> 
+|  Ändert den Pivot-Modus, entweder AUTOMATIC (Standard) oder MANUAL 
+|  Changes the pivot mode, either AUTOMATIC (default) or MANUAL 
+|-
+|  playerinfo 
+|  <uid> 
+|  Ruft Informationen über einen bestimmten Spieler ab (anhand seiner UID) 
+|  Gets some information about a particular player (by his UID) 
+|-
+|  playmusictrack 
+|  - 
+|  Spielt Musiktitel im Spiel ab 
+|  Plays music track in the game 
+|-
+|  playsound 
+|  <soundname> [parametername] [parametervalue] ... 
+|  Spielt einen bestimmten Soundeffekt an der Spielerposition ab 
+|  Plays a certain sound effect at the player position 
+|-
+|  posterinfo 
+|  - 
+|  Gibt alle Informationen zu einem Poster in der Spielwelt aus 
+|  Prints all information about a poster in the game 
+|-
+|  printchunkdata 
+|  - 
+|  Gibt die Chunk-Daten der aktuellen Spielwelt aus 
+|  Prints the chunk data of the current game world 
+|-
+|  printkeybindings 
+|  - 
+|  Schreibt alle aktuellen Tastenkombinationen in eine Textdatei im Spielverzeichnis mit dem Namen "keybindings.txt". <br>([[Unity-Version#Liste_der_Updates|Update 0.4.8]])  
+|  Prints all current key bindings to a text file in the game directory called "keybindings.txt" 
+|-
+|  q 
+|  - 
+|  DE 
+|  Quits the game 
+|-
+|  refreshallchunks 
+|  - 
+|  Erzwingt das Neuladen aller aktuell geladenen Chunks 
+|  Forces all currently loaded chunks to reload 
+|-
+|  refreshchunk 
+|  - 
+|  Erzwingt das Neuladen des aktuellen Chunks 
+|  Forces the current chunk to reload 
+|-
+|  refreshinventory 
+|  - 
+|  Aktualisiert dein Inventar (synchronisiert es mit dem Server) 
+|  Refresh your inventory (sync it with server) 
+|-
+|  refreshmap 
+|  - 
+|  Aktualisiert die Ingame-Karte 
+|  Refreshes the ingame map 
+|-
+|  reloadoptions 
+|  - 
+|  Lädt die Einstellungen aus der config.properties-Datei neu 
+|  Reloads the settings from the config.properties file 
+|-
+|  reloadpermissions 
+|  - 
+|  Lädt die Berechtigungsdateien (aus dem "Permissions"-Ordner) neu 
+|  Reloads permission files (from the "Permissions" folder) 
+|-
+|  reloadplugins 
+|  - 
+|  Lädt alle Plugins neu 
+|  Reloads all plugins (experimental feature) 
+|-
+|  reloadscheduler 
+|  - 
+|  Lädt die Server-Planungsdatei (scheduler.txt) neu 
+|  Reloads the server scheduler file (scheduler.txt) 
+|-
+|  renderclothes 
+|  - 
+|  Erstellt Icons für alle Kleidungsstücke und speichert sie im [[Screenshots]]-Ordner.  
+|  Creates icons for all clothes and stores them in the Screenshots folder 
+|-
+|  renderconstruction 
+|  <shape> [resolution] 
+|  Erstellt Icons für dieses Bau-Element mit allen Texturen und speichert sie im [[Screenshots]]-Ordner.  
+|  Creates icons for this construction element with all textures and stores them in the Screenshots folder 
+|-
+|  renderitems 
+|  - 
+|  Rendert kleine Vorschaubilder für alle Items und speichert sie im [[Screenshots]]-Ordner.  <br/>Siehe: [[Items]] <br/>Rendering Speicherort: <br/>{{Dateipfad Rendering}}  
+|  Creates icons for all items and stores them in the Screenshots folder 
+|-
+|  rendernpcs 
+|  - 
+|  Rendert kleine Vorschaubilder für alle NPCs und speichert sie im [[Screenshots]]-Ordner. <br/>Rendering Speicherort: <br/>{{Dateipfad Rendering}}  
+|  Creates icons for all npcs and stores them in the Screenshots folder 
+|-
+|  renderobject 
+|  - 
+|  Erstellt Icons für ein bestimmtes Objekt und speichert es im [[Screenshots]]-Ordner.  
+|  Creates icons for a particular object and stores it in the Screenshots folder 
+|-
+|  renderobjects 
+|  - 
+|  Rendert kleine Vorschaubilder für alle Objekte und speichert sie im [[Screenshots]]-Ordner.  
+|  Creates icons for all objects and stores them in the Screenshots folder 
+|-
+|  renderplants 
+|  - 
+|  Rendert kleine Vorschaubilder für alle Pflanzen und speichert sie im [[Screenshots]]-Ordner.  
+|  Creates icons for all plants and stores them in the Screenshots folder 
+|-
+|  renderplayer 
+|  [resolution] 
+|  Erstellt ein Bild des aktuellen Spielermodells (einschließlich der aktuellen Kleidung) 
+|  Creates an image of the current player model (including the current clothes) 
+|-
+|  renderworld 
+|  [resolution] 
+|  Erstellt einen orthographischen Top-Down-Screenshot der aktuell gerenderten Welt 
+|  Creates an orthographic top-down screenshot of the currently rendered world 
+|-
+|  report 
+|  - 
+|  Erstellt einen neuen Fehlerbericht (ruft das Berichtstool auf) 
+|  Creates a new error report (brings up the report tool) 
+|-
+|  resetcamerarotation 
+|  - 
+|  Setzt die Kamerarotation zurück 
+|  Resets the camera rotation 
+|-
+|  resetinput 
+|  - 
+|  Setzt alle Eingaben zurück 
+|  Resets all input 
+|-
+|  resolution 
+|  <width> <height> 
+|  Ändert die Auflösung 
+|  Changes the resolution 
+|-
+|  resolutionscale 
+|  <scale> 
+|  Ändert die Auflösungs-Skalierung (0-1) 
+|  Changes the resolution scale (0-1) 
+|-
+|  restart 
+|  <seconds> 
+|  Startet den Server in x Sekunden neu, d.h. sendet eine Nachricht über den bevorstehenden Neustart an alle Spieler und startet den Serverprozess neu (funktioniert nur im Mehrspielermodus) 
+|  Restarts the server in x seconds, i.e. broadcasts a message about the impending restart to all players and restarts the server process (only works in multiplayer) 
+|-
+|  revokeadmin 
+|  <name/uid> 
+|  Entzieht einem Spieler im Mehrspielermodus die Administratorrechte 
+|  Revokes admin rights from a player in multiplayer 
+|-
+|  rotate 
+|  <X> <Y> <Z>  OR  rotate <Y> 
+|  Rotiert das aktuell aktive Element entlang der X (Nick), Y (Gier) und Z (Roll) Achse 
+|  Rotates the currently active element along the X (pitch), Y (yaw) and Z (roll) axis 
+|-
+|  rotation 
+|  <X> <Y> <Z>  OR  rotation <Y> 
+|  Setzt eine absolute Rotation für das aktuell aktive Element entlang der X (Nick), Y (Gier) und Z (Roll) Achse 
+|  Sets an absolute rotation for the currently active element along the X (pitch), Y (yaw) and Z (roll) axis 
+|-
+|  rotationmode 
+|  <mode> 
+|  Ändert den Rotationsmodus. Entweder WORLD, LOCAL oder LEGACY (Standard) 
+|  Changes the rotation mode. Either set WORLD, LOCAL or LEGACY (default) 
+|-
+|  rp 
+|  - 
+|  Lädt alle Plugins neu 
+|  Reloads all plugins (experimental feature) 
+|-
+|  saveoptions 
+|  - 
+|  Optionen speichern. Schreibt alle nicht gespeicherten Einstellungen in die Datei config.properties  
+|  Writes all unsaved settings to the config.properties file 
+|-
+|  savepreset 
+|  <id> [name] 
+|  Speichert eine Größenvorlage 
+|  Saves a building size preset 
+|-
+|  screenshot 
+|  [width] [height] 
+|  Macht einen [[Screenshots|Screenshot]] 
+|  Takes a screenshot 
+|-
+|  servergc 
+|  - 
+|  Ruft den serverseitigen Garbage Collector auf, um ungenutzten Speicher freizugeben 
+|  Invokes the serverside garbage collector to free up unused memory 
+|-
+|  serverinfo 
+|  <type> 
+|  Erhält Informationen über den Server (Typen: Speicher, Chunks, Netzwerk) 
+|  Gets some information about the server (types: memory, chunks, network) 
+|-
+|  setaudiodriver 
+|  <driver> 
+|  DE 
+|  Changes the currently active audio output driver 
+|-
+|  setl 
+|  <precision> 
+|  DE 
+|  Sets the scale precision (when resizing an element) 
+|-
+|  setofflineplayergroup 
+|  <uid> <groupname> 
+|  DE 
+|  Sets the permission group of an offline player. Either provide the group name, or "default" / "null" for the default permission 
+|-
+|  setoption 
+|  <key> <value> 
+|  Ändert eine Option und speichert den aktualisierten Wert in der Konfigurationsdatei 
+|  Changes an option key and stores the updated value in the config file 
+|-
+|  setp 
+|  <precision> 
+|  DE 
+|  Sets the placement precision (when moving an element manually) 
+|-
+|  setplayergroup 
+|  <name/uid> <groupname> 
+|  Legt die Berechtigungsgruppe eines Spielers fest. 
+|  Sets the permission group of a player. Either provide the group name, or "default" / "null" for the default permission 
+|-
+|  setr 
+|  <precision> 
+|  Legt die Rotationsgenauigkeit fest (beim Drehen eines Elements) 
+|  Sets the rotation precision (when rotating an element) 
+|-
+|  setsnowiness 
+|  <0-1> 
+|  Legt den globalen Schneewert fest. Überschreibt Nässe 
+|  Sets the global snowiness value. Overrides wetness 
+|-
+|  setspawn 
+|  - 
+|  DE 
+|  Sets the global default spawn position to your current position 
+|-
+|  setspawninventory 
+|  - 
+|  DE 
+|  Sets the global default spawn inventory to your current inventory 
+|-
+|  settimespeed 
+|  <speed> <br/>(default speed is 1.75, realtime would be 60) 
+|  Gibt an, wie viele Echtzeitsekunden vergehen, bis die Spielzeit um eine Minute vorrückt 
+|  Specifies how many realtime seconds elapse until the ingame time advances by one minute 
+|-
+|  setwetness 
+|  <0-1> 
+|  DE 
+|  Sets the global wetness value. Overrides snowiness 
+|-
+|  showareas 
+|  - 
+|  DE 
+|  Shows all areas in the world. To hide them, type 'hideareas' 
+|-
+|  showballistictrajectory 
+|  - 
+|  DE 
+|  Visualizes the ballistic trajectory of projectiles 
+|-
+|  shutdown 
+|  - 
+|  DE 
+|  Shuts the server down (only works in multiplayer) 
+|-
+|  size 
+|  <X> <Y> <Z> 
+|  DE 
+|  Sets the size of the currently active element along the X (width), Y (height) and Z (depth) axis 
+|-
+|  skyrotation 
+|  <rotation> <br/>(default rotation is 0) 
+|  Bestimmt die Ausrichtung des Himmels bzw. von Sonne/Mond (Update 0.4.8) 
+|  Changes the rotation of the sky, which affects the direction where the sun rises and sets 
+|-
+|  spawnnpc 
+|  <name> [variant] 
+|  Spawnt / erzeugt einen NPC vor dir. <br/>Siehe: [[Tiere]], [[Gegner]] 
+ z.B.: 
+ *<code>spawnnpc bear</code> 
+ *<code>spawnnpc scorpion locked</code> - NPC wird eingefroren <br/>
+ *<code>spawnnpc barbarian</code> 
+ *<code>spawnnpc bandit 1</code> 
+ *<code>spawnnpc dummy locked</code>  
+|  Spawns an npc in front of you 
+|-
+|  spawnvehicle 
+|  <name> 
+|  Spawnt / erzeugt ein Fahrzeug vor dir. 
+ *<code>spawnvehicle rib</code> 
+ *<code>spawnvehicle sailboat</code>  
+|  Spawns a vehicle in front of you 
+|-
+|  surfaceoffset 
+|  <X> <Y> <Z> 
+|  DE 
+|  Sets the surface offset of the currently active element along the X (width), Y (height) and Z (depth) axis. Default is 0 0 0 
+|-
+|  surfacescale 
+|  <X> <Y> <Z> 
+|  DE 
+|  Sets the surface scale of the currently active element along the X (width), Y (height) and Z (depth) axis. Default is 1 1 1 
+|-
+|  swapsize 
+|  <axis1> <axis2> 
+|  DE 
+|  Swaps the scale of the currently active element. Swaps axis 1 with axis 2 (e.g. X and Z axis size values) 
+|-
+|  system 
+|  - 
+|  Zeigt einige Systeminformationen 
+|  Prints some system information 
+|-
+|  targetmonitor 
+|  <monitor> 
+|  DE 
+|  Changes the target monitor. Use 0 to switch to your main monitor 
+|-
+|  teleport 
+|  <toplayer>  OR  teleport <player> <toplayer> 
+|  Teleportiert dich zu einem anderen Spieler <br/> oder teleportiert einen bestimmten Spieler zu einem anderen Spieler 
+|  Teleports you to another player or teleports a particular player to another player 
+|-
+|  texturealignment 
+|  <type> <br/>(valid types: default, world, local) 
+|  Überschreibt die Texturausrichtung für das aktuell aktive Konstruktionselement. <br/><code>texturealignment default</code> 
+|  Overrides the texture alignment for the currently active construction element 
+|-
+|  texturescale 
+|  <scalefactor> 
+|  Ändert den Textur-Skalierungsfaktor für das aktuell aktive Konstruktionselement. <br/><code>texturescale 0.25</code><br/><code>texturescale 1</code>  
+|  Changes the texture scale for the currently active construction element 
+|-
+|  tod 
+|  <hours> <minutes> 
+|  Stellt die aktuelle Tageszeit (Uhrzeit) ein. <br/><code>tod 11 25</code> 
+|  Sets the current time of day 
+|-
+|  toggleterrain 
+|  - 
+|  DE 
+|  Hides/shows the terrain and vegetation (also affects collision, so enable flying mode via F2 first) 
+|-
+|  togglewater 
+|  - 
+|  Aktiviert/deaktiviert die Wassereffekte <br/> und macht die Wasseroberfläche unsichtbar. 
+|  Enables/disables water effects 
+|-
+|  toggleworldgeneration 
+|  - 
+|  DE 
+|  Stops/resumes the world generation 
+|-
+|  uidebugger 
+|  [? / layername] 
+|  Schaltet den UI-Debugger um (nützlich, um Namen/Pfade von UI-Elementen für die Plugin-API abzurufen). <br>([[Unity-Version#Liste_der_Updates|Update 0.6]])  
+|  Toggles the UI debugger (useful to get names/paths of UI elements for Plugin API) 
+|-
+|  unban 
+|  <uid> 
+|  DE 
+|  Unbans a player, i.e. lifts a ban in multiplayer 
+|-
+|  undo 
+|  - 
+|  Macht die letzte destruktive Aktion rückgängig (stellt z. B. das letzte zerstörte Element wieder her) 
+|  Reverts the last destructive action (e.g. restores the last element you've destroyed) 
+|-
+|  undress 
+|  - 
+|  Zieht alle Kleidungsstücke aus, die Sie gerade tragen 
+|  Takes off all clothes you're currently wearing 
+|-
+|  unityversion 
+|  - 
+|  Zeigt die aktuelle Unity Engine-Version 
+|  Prints the current engine version 
+|-
+|  unloadplugins 
+|  - 
+|  Entlädt alle Plugins 
+|  Unloads all plugins (experimental feature) 
+|-
+|  unlocknpc 
+|  - 
+|  Entfriert den NPC, den du gerade anschaust 
+|  Unfreezes the npc you're currently looking at 
+|-
+|  viewdistance 
+|  <detail> <total> [buildings] 
+|  DE 
+|  Changes the view distance 
+|-
+|  visualizenpcs 
+|  - 
+|  Visualisiert alle aktuell geladenen NPCs in der Szene 
+|  Visualizes all currently loaded npcs in the scene 
+|-
+|  visualizeobjects 
+|  - 
+|  Visualisiert alle aktuell geladenen Objekte (Möbel, Türen etc.) in der Szene 
+|  Visualizes all currently loaded objects (furniture, doors etc) in the scene 
+|-
+|  visualizevehicles 
+|  - 
+|  DE 
+|  Visualizes all currently loaded vehicles in the scene 
+|-
+|  volume 
+|  <sound/music> <value> 
+|  Stellt die Master-Sound- bzw. Musiklautstärke ein 
+|  Sets the master sound or music volume 
+|-
+|  weather 
+|  <type> [instant 0/1] (types: default, clear, breeze, overcast, rain, heavyrain, snow, heavysnow, lightsnow, cold, fog, densefog, storm) 
+|  Ändert das aktuelle Wetter im Spiel 
+|  Changes current ingame weather 
+|-
+|  worldbackup 
+|  - 
+|  Erstellt ein Backup der aktuell geladenen Welt. Optional kann das Backup komprimiert werden (Achtung: das dauert eine Weile)  
+|  Creates a backup of the currently loaded world. Optionally zips the backup (warning: this takes a while) 
+|-
+|  worlddir 
+|  - 
+|  Öffnet das Weltverzeichnis im Datei-Explorer 
+|  Opens the world directory in the file explorer 
+|-
+|  yell 
+|  <message> 
+|  Sendet eine Schreinachricht an alle Spieler 
+|  Sends a yell message to all players (multiplayer) 
+|} 
