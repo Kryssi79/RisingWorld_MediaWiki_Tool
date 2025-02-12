@@ -1,0 +1,16 @@
+{
+	"TableName": "items - Gruppe Stoff (Cloth)", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
+  items.name AS Name, items.name AS ID,  
+  '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
+  stacksize AS Stapelgrösse, 
+  \"group\" AS Gruppe, 
+  items.type AS Typ 
+  FROM items 
+  WHERE  items.name NOT NULL  AND \"group\" NOT NULL  AND items.assetpath NOT NULL 
+   AND \"group\"='Cloth'
+   order by name ", 
+	"TranslateColumns": [1,3], 
+	"OutputSubDirectory": "items\\Gruppen" 
+}

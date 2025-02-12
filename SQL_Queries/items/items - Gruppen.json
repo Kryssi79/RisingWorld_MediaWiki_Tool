@@ -1,0 +1,11 @@
+{
+	"TableName": "items - Gruppen", 
+	"TableIsSortable": true, 
+	"query": " SELECT \"group\", \"group\" AS Gruppe, COUNT(\"group\") AS Anzahl  
+  FROM items  
+  WHERE  items.name NOT NULL  AND \"group\" NOT NULL  AND items.assetpath NOT NULL 
+  GROUP BY \"group\"
+   order by \"group\" ASC  ", 
+	"TranslateColumns": [1], 
+	"OutputSubDirectory": "items\\Gruppen" 
+}

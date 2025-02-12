@@ -3,7 +3,7 @@
 	"TableIsSortable": true, 
 	"query": " SELECT  ' [[Datei:item_' || items.name || '.png|zentriert|frameless|64x64px]]' AS Bild, 
   items.name AS Name, items.name AS ID,  
-  '#Lang#item.' || items.name || '.desc' AS Beschreibung, 
+  '#Lang#journal#page_resources.resources_' || items.name || '.text1' AS Beschreibung, 
   stacksize AS Stapelgrösse, strength, 
   mass,  items.type AS Typ,  assetpath, 
   '#Version#' || items.name AS 'Ab Version' 
