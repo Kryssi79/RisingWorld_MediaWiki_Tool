@@ -1,0 +1,14 @@
+{
+	"TableName": "Bauelemente - all constructions", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:shape_' || name || '_200.png|zentriert|70px]] ' AS Bild, 
+  name AS Blockform, name AS Name, 
+  '[[Konsole#Edit|Baubefehl edit]]:<br/> ' || '<code>edit shape ' || name || '</code>' AS Konsolenbefehl, 
+  shapetype, 
+  meshpath
+  FROM constructions  
+   WHERE name NOT NULL  AND meshpath NOT NULL 
+   order by name  ", 
+	"TranslateColumns": [2], 
+	"OutputSubDirectory": "Bauelemente, constructions" 
+}
