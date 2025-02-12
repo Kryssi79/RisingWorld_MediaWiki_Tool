@@ -1,0 +1,14 @@
+{
+	"TableName": "Biome - Regionen und Erze, ores", 
+	"TableCaption": "Regionen - Erze", 
+	"TableIsSortable": true, 
+	"query": " SELECT  ' [[Datei:item_' || regions_ores.ore || 'ore.png|zentriert|frameless|64x64px]]' AS Bild, 
+  regions_ores.ore AS 'ore (engl.)',  
+  '#Lang#journal#page_resources.' || regions_ores.ore AS 'Erz', 
+  '#Lang#journal#page_resources.resources_' || regions_ores.ore || '.text1' AS Beschreibung, 
+  region AS 'Region'
+  FROM regions_ores  WHERE  regions_ores.ore NOT NULL 
+   order by regions_ores.ore ", 
+	"TranslateColumns": [2,3,4], 
+	"OutputSubDirectory": "biomes" 
+}

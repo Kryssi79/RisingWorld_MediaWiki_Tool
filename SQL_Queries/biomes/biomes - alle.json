@@ -1,7 +1,7 @@
 {
 	"TableName": "biomes - alle", 
 	"TableIsSortable": true, 
-	"query": " SELECT  '[[Datei:biomes_' || biomes.name || '_small.jpg|zentriert|frameless|165px]]' AS Bild, 
+	"query": " SELECT  '[[Datei:biomes_' || biomes.name || '_small.jpg|zentriert|frameless|145px]]' AS Bild, 
  name AS ID,  name AS Name, 
  '#Lang#CL#blockid.terrain.' || grasstexture || '' AS Grastextur, 
  '#Lang#CL#blockid.terrain.' || dirttexture || ''  AS Erde, 
